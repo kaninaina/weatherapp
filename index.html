@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+
+            <ul>
+                <li active>
+                    <div class="icon"><i class="fa-solid fa-house"></i></div>
+                    <div class="icon-name">
+                        <p>Home</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="icon-name">
+                        <p>Location</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon"><i class="fa-solid fa-bars"></i></div>
+                    <div class="icon-name">
+                        <p>add</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon"><i class="fa-solid fa-cloud"></i></div>
+                    <div class="icon-name">
+                        <p>Cloud</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon"><i class="fa-solid fa-gear"></i></div>
+                    <div class="icon-name">
+                        <p>Setting</p>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="nav-hidden"></div>
+        <div class="main-con">
+            <div class="main-margin">
+                <div class="city-adding">
+                    <div class="city">
+                        <div class="city-flex">
+                            <div class="city-flex-1">
+                                <div class="city-flex-img">
+                                    <img src="images/add/china.jpg">
+                                </div>
+                                <div class="city-flex-con">
+                                    <h3 name="China">China</h3>
+                                    <p>Sunny</p>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="city-flex-1">
+                                <div class="city-flex-img">
+                                    <img src="images/add/america.jpg">
+                                </div>
+                                <div class="city-flex-con">
+                                    <h3 name="sydney">USA</h3>
+                                    <p>Sunny</p>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="city-flex-1">
+                                <div class="city-flex-img">
+                                    <img src="images/add/japan.jpg">
+                                </div>
+                                <div class="city-flex-con">
+                                    <h3 name="Tokyo">Jappan</h3>
+                                    <p>Sunny</p>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="city-flex-1">
+                                <div class="city-flex-img">
+                                    <img src="images/add/india.jpg">
+                                </div>
+                                <div class="city-flex-con">
+                                    <h3 name="delhi">india</h3>
+                                    <p>Sunny</p>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="city-flex-1">
+                                <div class="city-flex-img">
+                                    <img src="images/add/brazil.jpg">
+                                </div>
+                                <div class="city-flex-con">
+                                    <h3 name="brazil">Brazil</h3>
+                                    <p>Sunny</p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-city">
+                        <div class="search">
+                            <p>Region</p>
+                            <select>
+                                <option>Europe</option>
+                            </select>
+                        </div>
+                        <div class="input">
+
+                            <div class="search-icon">
+                                <input type="text" placeholder="Search city" id="input">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <div class="current-location">
+                                <i class="fa-solid fa-location-crosshairs"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="city-adding-screen"></div>
+                </div>
+                <div class="current-city">
+                    <div class="current-city-margin">
+                        <div class="current-layer">
+                            <img src="images/current/layer.jpg">
+                        </div>
+                        <div class="current-head">
+                            <h1>Paris France</h1>
+                            <p>09:30 am</p>
+                            <p>30 May</p>
+                            <p style="color: yellow;"><i class="fa-solid fa-sun"></i></p>
+                            <p>30 &#8451</p>
+                        </div>
+                        <div class="days">
+                            <ul>
+                                <!-- <li>
+                    <p>Wednesday</p>
+                    <p>30 &#8451</p>
+                </li>
+                <li>
+                    <p>Thursday</p>
+                    <p>30 &#8451</p>
+                </li>
+                <li>
+                    <p>Friday</p>
+                    <p>30 &#8451</p>
+                </li>
+                <li>
+                    <p>Saturday</p>
+                    <p>30 &#8451</p>
+                </li>
+                <li>
+                    <p>Sunday</p>
+                    <p>30 &#8451</p>
+                </li>
+                <li>
+                    <p>Monday</p>
+                    <p>30 &#8451</p>
+                </li> -->
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="current-forecast">
+                    <div class="day-select">
+                        <h1>Today </h1>
+                        <i class="fa-solid fa-greater-than"></i>
+                    </div>
+                    <div class="hour-forecast">
+                        <!-- <div class="hour-forecast-1">
+        <p>2am</p>
+        <p><i class="fa-solid fa-cloud-rain"></i></p>
+        <p>27 &#8451</p>
+    </div>
+    <div class="hour-forecast-1">
+        <p>4am</p>
+        <p><i class="fa-solid fa-cloud"></i></p>
+        <p>27 &#8451</p>
+    </div>
+    <div class="hour-forecast-1">
+        <p>6am</p>
+        <p><i class="fa-solid fa-sun"></i></p>
+        <p>27 &#8451</p>
+    </div>
+    <div class="hour-forecast-1">
+        <p>8am</p>
+        <p><i class="fa-solid fa-sun"></i></p>
+        <p>27 &#8451</p>
+    </div>
+    <div class="hour-forecast-1">
+        <p>10am</p>
+        <p><i class="fa-solid fa-sun"></i></p>
+        <p>27 &#8451</p>
+    </div>
+    <div class="hour-forecast-1">
+        <p>12pm</p>
+        <p><i class="fa-solid fa-sun"></i></p>
+        <p>27 &#8451</p>
+    </div>
+    <div class="hour-forecast-1">
+        <p>2pm</p>
+        <p><i class="fa-solid fa-cloud-rain"></i></p>
+        <p>27 &#8451</p>
+    </div>
+    <div class="hour-forecast-1">
+        <p>14pm</p>
+        <p><i class="fa-solid fa-cloud-rain"></i></p>
+        <p>27 &#8451</p>
+    </div>
+    <div class="hour-forecast-1">
+        <p>16pm</p>
+        <p><i class="fa-solid fa-cloud-rain"></i></p>
+        <p>27 &#8451</p>
+    </div>
+    <div class="hour-forecast-1">
+        <p>18pm</p>
+        <p><i class="fa-solid fa-cloud-rain"></i></p>
+        <p>27 &#8451</p>
+    </div>
+    <div class="hour-forecast-1">
+        <p>20pm</p>
+        <p><i class="fa-solid fa-cloud-rain"></i></p>
+        <p>27 &#8451</p>
+    </div>
+    <div class="hour-forecast-1">
+        <p>22pm</p>
+        <p><i class="fa-solid fa-cloud-rain"></i></p>
+        <p>27 &#8451</p>
+    </div>
+    <div class="hour-forecast-1">
+        <p>24am</p>
+        <p><i class="fa-solid fa-cloud-rain"></i></p>
+        <p>27 &#8451</p>
+    </div> -->
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+</body>
+
+</html>
